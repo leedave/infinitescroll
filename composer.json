@@ -1,0 +1,46 @@
+{
+    "name": "leedch/infinitescroll",
+    "type": "library",
+    "description": "PHP Interfaces/Traits and JS/CSS components to render a table that loads on scroll and can be filtered/sorted",
+    "keywords": [
+        "leedch",
+        "html",
+        "table",
+        "json",
+        "infinitescroll",
+        "autoload"
+    ],
+    "homepage": "https://github.com/leedave/infinitescroll.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Lee",
+            "email": "leed@leed.ch",
+            "homepage": "https://www.leed.ch/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~7.0|~7.1",
+        "leedch/html": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leedch\\InfiniteScroll\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Leedch\\InfiniteScroll\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
