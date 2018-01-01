@@ -1,6 +1,6 @@
 <?php
 
-namespace Leedch\Website\InfiniteScroll\Interfaces;
+namespace Leedch\InfiniteScroll\Interfaces;
 
 /**
  * Description of TableInterface

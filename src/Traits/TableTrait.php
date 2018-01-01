@@ -1,6 +1,6 @@
 <?php
 
-namespace Leedch\Website\InfiniteScroll\Traits;
+namespace Leedch\InfiniteScroll\Traits;
 
 use Leedch\Html\Html5 as H;
 
